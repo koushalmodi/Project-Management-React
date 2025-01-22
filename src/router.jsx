@@ -5,6 +5,7 @@ import GuestLayout from "./components/GuestLayout";
 import Login from "./views/Login";
 // import NotFound from "./views/NotFound";
 import Signup from "./views/Signup";
+import ProfileForm from "./views/ProfileForm.jsx";
 // import Users from "./views/Users";
 // import UserForm from "./views/UserForm";
 
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
         element: <Signup/>
       }
     ]
+  },
+  {
+    path: '/profile',
+    element: <ProfileForm/>
   }
 //   {
 //     path: "*",
