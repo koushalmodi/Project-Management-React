@@ -1,0 +1,38 @@
+.profile-toggel{
+        /* height: 90vh; */
+    background-color: azure;
+    padding: 20px;
+}
+.hidden-profile-toggel{
+    display: none;
+}
+.btn-profile-toggel{
+    bottom: 2px;
+    position: fixed;
+    width: 23%;
+}
+.profile-folder{
+    height: 98vh;
+    background-color: #0d6efd;
+    width: 38px;
+    border-radius: 10px;
+}
+
+.ls-slider{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
+img{
+    /* width: 30vh;
+    height: 30vh; */
+    border-radius: 50%;
+}
+
+.pf-logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

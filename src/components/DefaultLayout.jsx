@@ -12,8 +12,6 @@ const DefaultLayout=()=>{
    }
    useEffect(()=>{
     axiosClient.get('/profiles')
-    .then((response)=>{
-    })
     .catch((err)=>{
         console.log(err)    
         navigate('/profile')
